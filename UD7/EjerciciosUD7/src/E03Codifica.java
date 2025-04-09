@@ -13,13 +13,15 @@ public class E03Codifica {
     }
 
     //Crear mi objeto file y comprobar si existe
-    public static void file(String archivo) {
+    public static String file(String archivo) {
         File f = new File("src" + File.separator + "files" + File.separator + archivo);
         if (f.exists()) {
             System.out.println("El archivo si existe");
+            return archivo;
         } else {
             System.out.println("El archivo no existe");
         }
+        return archivo;
     }
 
     public static void main(String[] args) throws IOException {
