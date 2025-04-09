@@ -1,0 +1,1 @@
+{"lista":[{"nombre":"Paco","apellidos":"Pil","miListaNominas":{"lista":[]},"dni":"232323234"},{"nombre":"Pico","apellidos":"Pol","miListaNominas":{"lista":[]},"dni":"32424"},{"nombre":"Peco","apellidos":"Pel","miListaNominas":{"lista":[{"importe":1200.0,"anno":2024,"mes":"ENERO"}]},"dni":"2232342"}]}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<empleados>
+    <empleado DNI="282828">
+        <nombre>Modesto</nombre>
+        <apellidos>Sierra</apellidos>
+        <nominas>
+            <nomina>
+                <importe>1200.0</importe>
+                <anno>2022</anno>
+                <mes>ENERO</mes>
+            </nomina>
+        </nominas>
+    </empleado>
+    <empleado DNI="22222">
+        <nombre>Blanca</nombre>
+        <apellidos>Lorente</apellidos>
+        <nominas>
+            <nomina>
+                <importe>1203.0</importe>
+                <anno>2022</anno>
+                <mes>FEBRERO</mes>
+            </nomina>
+            <nomina>
+                <importe>1291.0</importe>
+                <anno>2022</anno>
+                <mes>MARZO</mes>
+            </nomina>
+            <nomina>
+                <importe>1300.0</importe>
+                <anno>2022</anno>
+                <mes>ABRIL</mes>
+            </nomina>
+        </nominas>
+    </empleado>
+    <empleado DNI="88882">
+        <nombre>Joserra </nombre>
+        <apellidos>Manau</apellidos>
+        <nominas/>
+    </empleado>
+</empleados>
