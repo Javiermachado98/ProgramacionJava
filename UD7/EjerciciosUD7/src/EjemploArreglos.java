@@ -6,31 +6,30 @@ import java.io.IOException;
 public class EjemploArreglos {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader streamIn = null;
+
+
+        BufferedReader streamEntrada = null;
+
 
         try {
-
-            streamIn = new BufferedReader(new FileReader("src" + File.separator + "files" + File.separator + "ejemplo.txt"));
-
+            streamEntrada = new BufferedReader(new FileReader("src" + File.separator + "files" + File.separator + "cuenta.txt"));
             String l;
-            int contador = 1;
-            while ((l = streamIn.readLine()) != null) {
 
-                String lineas[] = l.split(" ");
+            while ((l = streamEntrada.readLine()) != null) {
+                String[] lineas = l.split(" ");
 
-                System.out.println("La linea " + contador + " tiene " + lineas.length + " palabras");
-
-                contador++;
-                }
-
-        }catch (Exception e) {
-            System.out.println(e);
-        }
-        finally {
-            if (streamIn != null) {
-                streamIn.close();
+                System.out.println(lineas.length + "palabras");
             }
+
+        } catch (Exception e) {
+            System.out.println(e);
+        } finally {
+            if (streamEntrada != null) {
+                streamEntrada.close();
+            }
+
         }
     }
-
 }
+
+
