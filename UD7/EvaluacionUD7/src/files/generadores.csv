@@ -1,0 +1,16 @@
+Modelo;Tipo;Capacidad (kW);Voltaje (V);Frecuencia (Hz);Consumo (L/h);Autonomía (h);Precio (EUR)
+Geotech iG 2500 EVO;Gasolina;2.5;230;50;0.6;8;288.13
+Honda H3000;Gasolina;2.5;230;50;0.6;8;654.9
+Hyundai HY3100;Gasolina;2.5;230;50;0.6;8;377.0
+Anova GC2500;Gasolina;2.5;230;50;0.6;8;459.8
+Kipor KGE2500X;Gasolina;2.2;230;50;0.6;10;535.95
+Könner & Söhnen KS 2900G;Gas/Gasolina;2.5;230;50;0.6;8;449.0
+Könner & Söhnen KS 3000G;Gas/Gasolina;2.6;230;50;0.6;8;529.0
+Könner & Söhnen KS 5000E G;Gas/Gasolina;4.0;230;50;0.8;7;859.0
+Könner & Söhnen KS 7000E G;Gas/Gasolina;5.0;230;50;1.0;6;919.0
+Könner & Söhnen KS 10000E G;Gas/Gasolina;7.5;230;50;1.2;5;1099.0
+Könner & Söhnen KS 2000iG S;Gas/Gasolina;1.8;230;50;0.5;9;699.0
+Könner & Söhnen KS 3100iG S;Gas/Gasolina;2.8;230;50;0.6;8;829.0
+Könner & Söhnen KS 4000iEG S;Gas/Gasolina;3.5;230;50;0.8;7;1099.0
+Könner & Söhnen KS 5500iEG S;Gas/Gasolina;5.0;230;50;1.0;6;1399.0
+Könner & Söhnen KS 8100iEG;Gas/Gasolina;8.0;230;50;1.2;5;1549.0
