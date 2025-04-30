@@ -15,13 +15,11 @@ public class Regular {
                 contador++;
             }
         }
-        if (contador == 0){
+        if (contador == 0) {
             System.out.println("Buen Trabajo, no fallaste ninguna");
-        }
-        else {
+        } else {
             System.out.println("Fallaste: " + contador + " veces");
         }
-
 
     }
 }

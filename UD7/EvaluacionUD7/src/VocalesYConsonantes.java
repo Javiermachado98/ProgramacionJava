@@ -12,19 +12,17 @@ public class VocalesYConsonantes {
             streamOut2 = new BufferedWriter(new FileWriter("src" + File.separator + "files" + File.separator + "vocales.txt"));
 
             for (char words = 'a'; words <= 'z'; words++) {
-                if (words == 'a' || words == 'e' || words == 'i' || words == 'o' || words == 'u'){
+                if (words == 'a' || words == 'e' || words == 'i' || words == 'o' || words == 'u') {
                     streamOut2.write(words);
                     streamOut2.newLine();
-                }
-                else {
+                } else {
                     streamOut.write(words);
                     streamOut.newLine();
                 }
             }
         } catch (Exception e) {
             System.out.println(e);
-        }
-        finally {
+        } finally {
             if (streamOut != null) {
                 streamOut.close();
             }

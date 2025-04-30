@@ -23,21 +23,15 @@ public class Generadores {
 
             }
 
-    }
-        catch(
-    Exception e)
-
-    {
-        System.out.println(e);
-    }
-        finally
-
-    {
-        if (streamIn != null) {
-            streamIn.close();
+        } catch (
+                Exception e) {
+            System.out.println(e);
+        } finally {
+            if (streamIn != null) {
+                streamIn.close();
+            }
         }
+
+
     }
-
-
-}
 }
