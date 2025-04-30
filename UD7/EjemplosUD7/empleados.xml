@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<empleados>
+    <empleado DNI="123456789">
+        <nombre>javier </nombre>
+        <apellidos>machado</apellidos>
+        <nominas>
+            <nomina>
+                <importe>580.0</importe>
+                <anno>2024</anno>
+                <mes>ENERO</mes>
+            </nomina>
+        </nominas>
+    </empleado>
+</empleados>

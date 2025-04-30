@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<empleado DNI="262723">
+    <nombre>Modesto</nombre>
+    <apellidos>Sierra</apellidos>
+    <nominas>
+        <nomina>
+            <importe>1200.0</importe>
+            <anno>2022</anno>
+            <mes>ENERO</mes>
+        </nomina>
+        <nomina>
+            <importe>1250.0</importe>
+            <anno>2022</anno>
+            <mes>FEBRERO</mes>
+        </nomina>
+        <nomina>
+            <importe>1150.0</importe>
+            <anno>2022</anno>
+            <mes>MARZO</mes>
+        </nomina>
+        <nomina>
+            <importe>1320.0</importe>
+            <anno>2022</anno>
+            <mes>ABRIL</mes>
+        </nomina>
+    </nominas>
+</empleado>
