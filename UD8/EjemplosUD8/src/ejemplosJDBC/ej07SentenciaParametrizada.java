@@ -21,12 +21,12 @@ public class ej07SentenciaParametrizada {
 
         String genero = "M" ; // se puede cambiar esto o solicitarlo por teclado
 
-        String url = "jdbc:mysql://localhost:3306/academia";
+        String url = "jdbc:mysql://localhost:3306/academiamysql";
 
         try {
             con = DriverManager.getConnection(url, "consultor", "consultorpass");
 
-            sql = "SELECT * FROM academia.alumnos WHERE sexo = ?";
+            sql = "SELECT * FROM alumnos WHERE sexo = ?";
             sentencia = con.prepareStatement(sql);
             sentencia.setString(1,genero); // el primer ? corresponde al género
 
