@@ -1,0 +1,16 @@
+debemos tener en cuenta que para conectarnos a la base de datos, debemos conectarnos directamnte con el host, el puerto
+y el
+- Para cualquier base de datos siempre vamos a necesitar los mismos datos a cualquier base datos, mediante el driver
+ con el fichero .jar, cada "marca" tiene su .jar diferente
+
+ - Luego de lograr la connection realizamos una consulta
+ 1. EL statement = se envian consultas fijas
+    Podemos hacer una execute query que nos trae todas ls consultas basicas de sql.
+    Con executeupdated nos retorna un valor con INT
+
+    si execute es true es una query
+
+
+ 2. PrepareStatement se preparan las consultas
+ -> todo esto me dara un resultset, gracias a sqlexcepcition podemos ver y saber que ha psado con nuestra base de datos
+ -> los metadatos son los datos sobre los datos
