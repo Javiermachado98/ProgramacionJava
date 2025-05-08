@@ -17,7 +17,13 @@ public class Empleado implements Serializable{
     private String apellidos;
     private String DNI;
     private ListaNominas miListaNominas;
-    
+
+    public Empleado(String DNI, String nombre, String apellidos) {
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.DNI = DNI;
+    }
+
 
     /**
      * @return the nombre

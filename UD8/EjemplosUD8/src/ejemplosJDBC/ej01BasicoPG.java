@@ -21,7 +21,7 @@ public class ej01BasicoPG {
 
         String url = "jdbc:postgresql://localhost:5432/academiapg";
         try {
-            con = DriverManager.getConnection(url, "consultor", "consultorpass");
+            con = DriverManager.getConnection(url, "consultor", "consultopass");
             sentencia = con.createStatement();
             sql = "SELECT * FROM alumnos";
             rs = sentencia.executeQuery(sql);

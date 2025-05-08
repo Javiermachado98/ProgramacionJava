@@ -19,7 +19,7 @@ public class ej09InsertarAlumno {
     private static final String user="consultor";
     private static final String password="consultorpass";
     private static final String maquina = "localhost";
-    private static final String bbdd = "academia";
+    private static final String bbdd = "academiamysql";
 
     public static Connection conectar() {
         Connection con = null;
@@ -42,7 +42,7 @@ public class ej09InsertarAlumno {
 
         try {
             String sql = "INSERT INTO alumnos (dni, nombre, apellido1, apellido2, direccion, sexo, fechanac) " +
-                    "VALUES (  ?,      ?,         ?,         ?,         ?,    ?,     ?)";
+                        "VALUES (  ?,      ?,         ?,         ?,         ?,    ?,     ?)";
 
             PreparedStatement sentencia = conexion.prepareStatement(sql);
 
