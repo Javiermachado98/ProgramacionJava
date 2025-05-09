@@ -9,12 +9,12 @@ import java.sql.Statement;
  * @author admin
  */
 public class ej03Update {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Connection con;
         Statement sentencia;
         String sql;
 
-        String url = "jdbc:mysql://localhost:3306/academia";
+        String url = "jdbc:mysql://localhost:3306/academiamysql";
         try {
             con = DriverManager.getConnection(url, "consultor", "consultorpass");
             sentencia = con.createStatement();

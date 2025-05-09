@@ -14,6 +14,8 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import static p01Nominas.Principal01LeeBBDD.listemployers;
+
 /**
  *
  * @author admin
@@ -64,6 +66,8 @@ public class Principal {
      */
     public static void main(String[] args) {
 
+        ListaEmpleados lista = listemployers;
+
         miLista = new ListaEmpleados();
         cargaInfo();
 
@@ -85,7 +89,7 @@ public class Principal {
                     // Alta empleado y aÃ±ade a lista Empleado
                 }
                 case OPCION_MOSTRAR_EMPLEADOS -> {
-                    miLista.mostrarEmpleados();
+                    Principal01LeeBBDD.uploadEmployersDB();
                 }
                 case OPCION_ALTA_NOMINA -> {
                     Empleado emp = null;
@@ -144,7 +148,7 @@ public class Principal {
                 }
 
                 case OPCION_MOSTRAR_NOMINAS_MAYORES_IMPORTE -> {
-                    // Pide importe y muestra todas las  nominas de todos los empleadosmayores que el importee
+                    // Pide importe y muestra todas las nominas de todos los empleadosmayores que el importee
                     System.out.println("Introduce un importe");
                     double importe = sc.nextDouble();
                     miLista.muestraNominasEmpleadosMayores(importe);
