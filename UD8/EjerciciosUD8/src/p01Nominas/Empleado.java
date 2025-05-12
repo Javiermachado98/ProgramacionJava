@@ -16,7 +16,7 @@ public class Empleado implements Serializable{
     private String nombre;
     private String apellidos;
     private String DNI;
-    private ListaNominas miListaNominas;
+    private ListaNominas miListaNominas = new ListaNominas();
 
     public Empleado(String DNI, String nombre, String apellidos) {
         this.nombre = nombre;
@@ -106,6 +106,7 @@ public class Empleado implements Serializable{
      * Muestra todas las nóminas de la lista de nóminas del empleado
      */
     public void muestraNominasEmpleado() {
+        System.out.println("Empleado: " + this.getNombre() + " " + this.getDNI());
         miListaNominas.mostrarNominas();
     }
     

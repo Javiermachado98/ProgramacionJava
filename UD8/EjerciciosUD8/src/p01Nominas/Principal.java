@@ -15,6 +15,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import static p01Nominas.Principal01LeeBBDD.listemployers;
+import static p01Nominas.Principal01LeeBBDD.uploadPayroll;
 
 /**
  *
@@ -90,6 +91,8 @@ public class Principal {
                 }
                 case OPCION_MOSTRAR_EMPLEADOS -> {
                     Principal01LeeBBDD.uploadEmployersDB();
+                    System.out.println("Empleados cargados: ");
+                    listemployers.mostrarEmpleados();
                 }
                 case OPCION_ALTA_NOMINA -> {
                     Empleado emp = null;
