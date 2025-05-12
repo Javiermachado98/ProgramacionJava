@@ -15,6 +15,20 @@ public class Nomina implements Serializable{
     private int anno;
     private tipoMes mes = tipoMes.NINGUNO;
 
+
+
+    public Nomina(float importe, int anno, tipoMes mes) {
+        this.importe = importe;
+        this.mes = mes;
+        this.anno = anno;
+
+    }
+
+    public Nomina() {
+
+    }
+
+
     /**
      * @return the importe
      */

@@ -39,6 +39,15 @@ public class ListaEmpleados implements Serializable{
         }
 
     }
+    public Empleado devuelveEmpleadoDNI (String dni) {
+        for (Empleado e: lista) {
+            if (e.getDNI().equals(dni)) {
+                return e;
+            }
+        }
+        System.out.println("No se ha encontrado empleado con ese DNI");
+        return null;
+    }
 
     /**
      * Devuelve el número de empleados de la lista
