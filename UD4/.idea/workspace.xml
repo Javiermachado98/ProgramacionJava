@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a46ad02e-3b6e-48e2-8aeb-6871289f75fe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/UD4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD8/EjerciciosUD8/src/p01Nominas/Nomina.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD8/EjerciciosUD8/src/p01Nominas/Nomina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UD8/EjerciciosUD8/src/p01Nominas/Principal01LeeBBDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UD8/EjerciciosUD8/src/p01Nominas/Principal01LeeBBDD.java" afterDir="false" />
-    </list>
+    <list default="true" id="a46ad02e-3b6e-48e2-8aeb-6871289f75fe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +13,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Javiermachado98"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Javiermachado98/ProgramacionJava.git",
+    "accountId": "8431a058-47ed-49b6-b667-409cb2e11bb3"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2wzNyEOHoYbf0JKrW5wAavBHs5P" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,7 +39,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/alumno/ProgramacionJava/UD4",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/javie/IdeaProjects/ProgramacionJava/UD4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -43,11 +52,12 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.109" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.109" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a46ad02e-3b6e-48e2-8aeb-6871289f75fe" name="Changes" comment="" />
@@ -56,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1747040694358</updated>
       <workItem from="1747040695421" duration="588000" />
+      <workItem from="1747060072375" duration="355000" />
     </task>
     <servers />
   </component>
