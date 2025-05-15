@@ -102,6 +102,4 @@ public class Nomina implements Serializable{
         miNomina.alta();
         System.out.println(miNomina);
     }
-    
-    
 }

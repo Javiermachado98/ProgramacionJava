@@ -76,5 +76,4 @@ public class ListaEmpleados implements Serializable{
             emp.muestraNominasMayoresImporte(importe);
         }
     }
-    
 }
