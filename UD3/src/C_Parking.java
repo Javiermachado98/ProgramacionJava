@@ -96,7 +96,6 @@ public class C_Parking {
             }
 
         }
-
         return false;
     }
 
@@ -121,7 +120,6 @@ public class C_Parking {
         return false;
     }
 
-
     public static boolean informeOcupacion(int[][] arreglo) { // un valor que esta dentro de una variable que esta dentro del programa
         boolean vacio = false;
 
@@ -143,7 +141,6 @@ public class C_Parking {
 
     public static boolean plantaVacia(int[][] arreglo) { // un valor que esta dentro de una variable que esta dentro del programa
 
-
         int contadorLleno = 0;
         int[] arregloNivelOcupacion = new int[NUM_PLANTAS];
 
@@ -164,12 +161,10 @@ public class C_Parking {
             }
         }
 
-
         System.out.println(Arrays.toString(arregloNivelOcupacion));
 
         return false;
     }
-
 
     public static int totalCoches(int[][] arreglo) { // un valor que esta dentro de una variable que esta dentro del programa
 
@@ -239,29 +234,49 @@ public class C_Parking {
         return mantenimiento;
     }
 
-    public static boolean porcentajeOcupacion(int[][] arreglo){
+    public static boolean porcentajeOcupacion(int[][] arreglo) {
+        int contadorLleno = 0;
+        int[] arregloNivelOcupacion = new int[NUM_PLANTAS];
 
-        double[] arregloPorcentaje = new double[NUM_PLANTAS];
-
-        int contadorTotalCoches = 0;
-        for (int contadorPlantas = 0; contadorPlantas < NUM_PLANTAS; contadorPlantas++){
-            for (int contadorCapacidad = 0; contadorCapacidad < NUM_DE_PARQUEADEROS; contadorCapacidad++){
-                if (arreglo[contadorPlantas][contadorCapacidad] == 1){
-                    contadorTotalCoches = contadorTotalCoches + 1;
-
+        for (int contadorPlantas = 0; contadorPlantas < NUM_PLANTAS; contadorPlantas++) {
+            for (int contadorCapacidad = 0; contadorCapacidad < NUM_DE_PARQUEADEROS; contadorCapacidad++) {
+                if (arreglo[contadorPlantas][contadorCapacidad] == 1) {
+                    contadorLleno = contadorLleno + 1;
                 }
-                arregloPorcentaje[contadorPlantas] = contadorTotalCoches;
             }
-
-            arregloPorcentaje[contadorPlantas] = arregloPorcentaje[contadorPlantas] / 100;
+            arregloNivelOcupacion[contadorPlantas] = contadorLleno * 20;
+            contadorLleno = 0;
         }
-        System.out.println(Arrays.toString(arregloPorcentaje));
+        System.out.println(Arrays.toString(arregloNivelOcupacion) + " %");
         return false;
     }
 
+    public static boolean sitiosReservados(int[][] arreglo){
+
+        int contadorLleno = 0;
+        int[] arregloNivelOcupacion = new int[NUM_PLANTAS];
+
+        System.out.println("Las plantas 1, 4, 6, 8, seran las reservadas?, si es asi digite 1, si no digite 0");
+        int respuesta = sc.nextInt();
+        if (respuesta == 1){
+            for (int contadorPlantas = 0; contadorPlantas < NUM_PLANTAS; contadorPlantas++) {
+                for (int contadorCapacidad = 0; contadorCapacidad < NUM_DE_PARQUEADEROS; contadorCapacidad++) {
+
+                    if (contadorCapacidad != 0 && contadorCapacidad != 3 && contadorCapacidad != 5 && contadorCapacidad != 7){
+
+                        contadorLleno = contadorLleno + 1;
+
+                    }
+                }
+                arregloNivelOcupacion[contadorPlantas] = contadorLleno;
+                contadorLleno = 0;
+            }
+
+        }
+        return false;
+    }
 
     public static void main(String[] args) {
-
 
         int valorMenu = 0;
         int[][] miParqueadero;

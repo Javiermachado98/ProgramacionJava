@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+git <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
@@ -72,6 +72,7 @@
       <workItem from="1747061159163" duration="21000" />
       <workItem from="1747520453906" duration="125000" />
       <workItem from="1747520612986" duration="21000" />
+      <workItem from="1747521699982" duration="110000" />
     </task>
     <servers />
   </component>
