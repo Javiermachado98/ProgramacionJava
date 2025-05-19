@@ -11,7 +11,6 @@ public class Equipaje {
 
 
 
-
     public Equipaje(){
 
     }
