@@ -24,7 +24,7 @@ public class Principal {
             switch (opcion) {
                 case OPCION_ANADIR -> controller.anadirViaje();
                 case OPCION_BORRAR -> {}
-                case OPCION_VER_TODOS -> {}
+                case OPCION_VER_TODOS -> controller.verTodos();
                 case OPCION_VER_POR_DESTINO -> {}
                 case OPCION_SALIR -> System.out.println("Saliendo...");
                 default -> System.out.println("Opción no válida.");

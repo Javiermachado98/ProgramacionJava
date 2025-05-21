@@ -3,6 +3,7 @@ package controller;
 import dao.ViajeDAO;
 import model.Viaje;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class ViajeController {
@@ -31,5 +32,12 @@ public class ViajeController {
     }
 
     public ViajeController() {
+    }
+
+    public void verTodos(){
+        List<Viaje> viajes = dao.ListaTodosLosViajes();
+        for (Viaje v : viajes){
+            System.out.println(v);
+        }
     }
 }
