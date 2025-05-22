@@ -9,10 +9,10 @@ import java.util.List;
 public class EstudianteDAO {
     private EntityManagerFactory emf = Persistence.createEntityManagerFactory("miUnidadDePersistencia");
 
-    public void guardar (Estudiante arma){
+    public void guardar (Estudiante estudiante){
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
-        em.persist(arma);
+        em.persist(estudiante);
         em.getTransaction().commit();
         em.close();
     }

@@ -1,4 +1,5 @@
 package p02Examenes;
+import java.sql.Connection;
 import java.util.Scanner;
 
 /**
@@ -28,6 +29,9 @@ public class Principal {
         System.out.println("===========================================");
         System.out.print("Introduce una opción: ");
     }
+
+
+
 
     public static void main(String[] args) {
 

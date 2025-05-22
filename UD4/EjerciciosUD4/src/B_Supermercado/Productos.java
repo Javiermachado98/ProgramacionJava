@@ -37,7 +37,7 @@ public class Productos {
 
     public Productos(String nombre, String marca, String descripcion,
                      double precioFinal, double peso, int numSerie,
-                     tipoProducto tipo, LocalDate fechaCaducidad) {
+                     tipoProducto tipo, LocalDate fechaCaducidad, Envases envase) {
         this.nombre = nombre;
         this.marca = marca;
         this.descripcion = descripcion;
@@ -46,6 +46,7 @@ public class Productos {
         this.numSerie = numSerie;
         this.tipo = tipo;
         this.fechaCaducidad = fechaCaducidad;
+        this.envase = envase;
     }
 
     public String getNombre() {
@@ -127,13 +128,28 @@ public class Productos {
         this.numSerie = sc.nextInt();
         System.out.println("Ingrese el tipo de producto: ");
         this.tipo = tipoProducto.valueOf(sc.next().toUpperCase());
+        System.out.println("Ingrese el nombre del envase");
+
+    }
+    public double iva(){
 
         iva = precio * 0.21;
         precioFinal = precio + iva;
 
-
-
+        return iva;
     }
+    public double total(){
+        double total = 0;
+        total =  iva() + envase.getPrecio();
+
+        System.out.println("El precio total es de: " + total);
+        System.out.println("valor envase" + envase.getPrecio() + " valor iva: " + iva + " precio base " + precio);
+
+        return total;
+    }
+
+
+
 
     @Override
     public String toString() {

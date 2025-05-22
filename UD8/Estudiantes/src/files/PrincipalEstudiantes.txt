@@ -1,0 +1,1 @@
+{"lista":[{"dni":"232323234","nombre":"Paco","apellidos":"Pil","correo":"paco@gmail.com"},{"dni":"32424","nombre":"Pico","apellidos":"Pol","correo":"pico@gmail.com"},{"dni":"2232342","nombre":"Peco","apellidos":"Pel","correo":"peco@gmail.com"},{"dni":"5554442","nombre":"Poco","apellidos":"pal","correo":"poco@gmail.com"}]}

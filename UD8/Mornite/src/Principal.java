@@ -14,7 +14,6 @@ public class Principal {
         ArmaController myarmacontroller = new ArmaController();
 
         int opcion;
-
         do {
             mostrarMenu();
             opcion = sc.nextInt();
@@ -27,16 +26,13 @@ public class Principal {
                 case OPCION_SALIR -> System.out.println("Saliendo...");
                 default -> System.out.println("Opción no válida.");
             }
-
-
         } while (opcion != OPCION_SALIR);
-
     }
 
     private static void mostrarMenu() {
         System.out.println("\n--- MENÚ ---");
         System.out.println(OPCION_ANADIR + ". Añadir Arma");
-        System.out.println(OPCION_BORRAR + ". Borrar viaje");
+        System.out.println(OPCION_BORRAR + ". Borrar arma");
         System.out.println(OPCION_VER_TODOS + ". Ver todas las armas");
         System.out.println(OPCION_SALIR + ". Salir");
         System.out.print("Opción: ");

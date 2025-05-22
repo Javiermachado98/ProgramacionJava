@@ -14,6 +14,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
 import static p01Nominas.Principal01LeeBBDD.listemployers;
 import static p01Nominas.Principal01LeeBBDD.uploadPayroll;
 
@@ -155,6 +156,7 @@ public class Principal {
                     System.out.println("Introduce un importe");
                     double importe = sc.nextDouble();
                     miLista.muestraNominasEmpleadosMayores(importe);
+
                 }
 
                 case OPCION_SALIR -> {
