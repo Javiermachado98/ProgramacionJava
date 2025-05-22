@@ -5,32 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae6f9e69-d1b5-4d8e-a2ce-a003e56e5a8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/Estudiantes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/libraries/jackson_core_2_18_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/libraries/jackson_core_2_19_0_rc2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/libraries/jackson_databind_2_18_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/libraries/jackson_databind_2_19_0_rc2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/libraries/jakarta_persistence_api_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/libraries/mysql_connector_j_9_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/libraries/org_eclipse_persistence_antlr_2_7_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/libraries/org_eclipse_persistence_asm_9_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/libraries/org_eclipse_persistence_core_4_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/libraries/org_eclipse_persistence_jpa_4_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/libraries/org_eclipse_persistence_jpa_jpql_4_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/src/ListaArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/src/ListaEstudiantesEjemplos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/src/PrincipalEstudiantes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Estudiantes/src/model/ListaEstudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD4/EjerciciosUD4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD4/EjerciciosUD4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD4/EjerciciosUD4/src/B_Supermercado/Productos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD4/EjerciciosUD4/src/B_Supermercado/Productos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD4/EjerciciosUD4/src/B_Supermercado/principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD4/EjerciciosUD4/src/B_Supermercado/principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Estudiantes/src/controller/EstudianteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Estudiantes/src/controller/EstudianteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Estudiantes/src/dao/EstudianteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Estudiantes/src/dao/EstudianteDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Estudiantes/Estudiantes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EvaluacionUD8/EvaluacionUD8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EvaluacionUD8/src/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EvaluacionUD8/src/dao/LibreriaDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +53,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/javie/IdeaProjects/ProgramacionJava/UD7/EjerciciosUD7",
+    "last_opened_file_path": "/home/alumno/ProgramacionJava/UD8/EjerciciosUD8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,8 +88,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -127,6 +105,7 @@
       <workItem from="1747838073322" duration="2846000" />
       <workItem from="1747842553489" duration="7000" />
       <workItem from="1747842600258" duration="10821000" />
+      <workItem from="1747910460504" duration="1286000" />
     </task>
     <servers />
   </component>
