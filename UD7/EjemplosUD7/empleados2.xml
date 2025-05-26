@@ -16,4 +16,9 @@
         <apellidos>machado</apellidos>
         <nominas/>
     </empleado>
+    <empleado DNI="1231321">
+        <nombre>prueba</nombre>
+        <apellidos>dos</apellidos>
+        <nominas/>
+    </empleado>
 </empleados>

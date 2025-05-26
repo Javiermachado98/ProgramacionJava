@@ -1,35 +1,48 @@
-import java.io.*;
+import java.io.*;  // Importamos las clases para trabajar con archivos
 
 public class VocalesYConsonantes {
 
     public static void main(String[] args) throws IOException {
 
-        BufferedWriter streamOut = null;
-        BufferedWriter streamOut2 = null;
+        // Declaramos dos BufferedWriter para escribir en dos archivos distintos
+        BufferedWriter streamConsonantes = null;
+        BufferedWriter streamVocales = null;
 
         try {
-            streamOut = new BufferedWriter(new FileWriter("src" + File.separator + "files" + File.separator + "Consonantes.txt"));
-            streamOut2 = new BufferedWriter(new FileWriter("src" + File.separator + "files" + File.separator + "vocales.txt"));
+            // Creamos BufferedWriter para el fichero de consonantes
+            streamConsonantes = new BufferedWriter(
+                    new FileWriter("src" + File.separator + "files" + File.separator + "Consonantes.txt"));
 
-            for (char words = 'a'; words <= 'z'; words++) {
-                if (words == 'a' || words == 'e' || words == 'i' || words == 'o' || words == 'u') {
-                    streamOut2.write(words);
-                    streamOut2.newLine();
+            // Creamos BufferedWriter para el fichero de vocales
+            streamVocales = new BufferedWriter(
+                    new FileWriter("src" + File.separator + "files" + File.separator + "vocales.txt"));
+
+            // Recorremos el abecedario de la 'a' a la 'z'
+            for (char letra = 'a'; letra <= 'z'; letra++) {
+                // Comprobamos si la letra es una vocal
+                if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
+                    // Si es vocal, escribimos en el fichero de vocales
+                    streamVocales.write(letra);
+                    streamVocales.newLine();  // Escribimos un salto de línea para que cada vocal esté en una línea diferente
                 } else {
-                    streamOut.write(words);
-                    streamOut.newLine();
+                    // Si no es vocal (y no contamos la ñ), escribimos en el fichero de consonantes
+                    streamConsonantes.write(letra);
+                    streamConsonantes.newLine();  // Salto de línea para separar letras
                 }
             }
+
         } catch (Exception e) {
-            System.out.println(e);
+            // Si ocurre algún error, lo mostramos por pantalla
+            System.out.println("Error: " + e.getMessage());
+
         } finally {
-            if (streamOut != null) {
-                streamOut.close();
+            // Cerramos ambos BufferedWriter para liberar recursos y guardar los cambios
+            if (streamConsonantes != null) {
+                streamConsonantes.close();
             }
-            if (streamOut2 != null) {
-                streamOut2.close();
+            if (streamVocales != null) {
+                streamVocales.close();
             }
         }
     }
-
 }

@@ -52,7 +52,7 @@ public class Principal {
             JAXBContext contexto = JAXBContext.newInstance(ListaEmpleados.class);
             Marshaller m = contexto.createMarshaller();
             m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-            m.marshal(miLista, new FileWriter("empleados.xml"));
+            m.marshal(miLista, new FileWriter("empleados2.xml"));
         } catch (Exception e) {
             System.out.println(e);
         }
