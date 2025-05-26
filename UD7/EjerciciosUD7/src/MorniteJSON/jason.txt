@@ -1,0 +1,1 @@
+{"listaArmas":[{"nombre":"nueva","descripcion":"asfas","rareza":"poco","dannio":8}]}
