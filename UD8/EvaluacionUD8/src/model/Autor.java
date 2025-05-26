@@ -1,5 +1,7 @@
 package model;
 
+import controller.ListaLibros;
+
 public class Autor {
 
     private String nombre;
@@ -8,7 +10,7 @@ public class Autor {
     private int anioNacimiento;
     private String profesion;
     private String DNI;
-    private ListaLibros myListaLibros = new ListaLibros();
+    //private ListaLibros myListaLibros = new ListaLibros();
 
     public Autor() {
     }
@@ -22,9 +24,9 @@ public class Autor {
         this.DNI = DNI;
     }
 
-    public void anadirLibroAutor(Libro l){
+    /*public void anadirLibroAutor(Libro l){
         myListaLibros = new ListaLibros();
-    }
+    }*/
 
     public String getNombre() {
         return nombre;

@@ -19,9 +19,6 @@ public class Libro {
         this.autor = autor;
     }
 
-    public Libro(String titulo, String isbn, String editorial, int anioEdicion, String dni) {
-    }
-
 
     public String getTitulo() {
         return titulo;
