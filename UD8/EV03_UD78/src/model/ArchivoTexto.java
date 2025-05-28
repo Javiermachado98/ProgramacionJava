@@ -1,4 +1,4 @@
-package model;
+/*package model;
 
 public class ArchivoTexto {
 
@@ -32,3 +32,4 @@ public class ArchivoTexto {
     }
 }
 
+*/
