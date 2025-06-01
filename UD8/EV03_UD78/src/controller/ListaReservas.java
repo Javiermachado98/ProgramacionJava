@@ -88,7 +88,6 @@ public class ListaReservas {
                     psReserva.setString(5, DNIGuardaLlaves);
                     psReserva.executeUpdate();
                     System.out.println("se agrego reserva");
-
                 }
                 else {
                     System.out.println("no se agrego la reserva");
