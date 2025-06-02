@@ -4,7 +4,7 @@ import java.util.Random;
 public class funcionwhile {
     public static void main(String[] args) {
 
-        Random myrandom = new Random();
+        Random myrandom g= new Random();
         int numerosBingo = 99;
         int[] bingo;
         bingo = new int[numerosBingo];

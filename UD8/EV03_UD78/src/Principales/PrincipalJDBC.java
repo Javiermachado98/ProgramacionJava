@@ -92,17 +92,17 @@ public class PrincipalJDBC {
 
                 String sqlParcela = "SELECT * FROM parcelas where numeroParcela = ?";
                 PreparedStatement psParcela = conexion.prepareStatement(sqlParcela);
-                psParcela.setInt(1,idparcela);
+                psParcela.setInt(1, idparcela);
                 ResultSet rsParcela = psParcela.executeQuery();
 
                 Parcela myparcela2 = null;
-                if (rsParcela.next()){
+                if (rsParcela.next()) {
                     myparcela2 = new Parcela(rsParcela.getInt("numeroParcela"),
                             rsParcela.getDouble("coordenadaX"),
                             rsParcela.getDouble("coordenadaY"),
                             rsParcela.getDouble("superficiem2"));
                 }
-               Reserva myreserva1 = new Reserva(myparcela2,nombrejaima, nombreasociacion, dniresponsable, dniguardallave);
+                Reserva myreserva1 = new Reserva(myparcela2, nombrejaima, nombreasociacion, dniresponsable, dniguardallave);
                 miListaReservas.anadirReserva(myreserva1);
             }
 
@@ -128,7 +128,6 @@ public class PrincipalJDBC {
         System.out.println("6.- Revisar DNI Próximo Año");
         System.out.println("7.- Salir");
         System.out.print("Elige una opción:");
-
     }
 
     public static void main(String args[]) {

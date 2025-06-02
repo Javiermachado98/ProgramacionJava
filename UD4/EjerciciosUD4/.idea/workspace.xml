@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aad2ee1-3299-4763-9f79-b3f7c0a138b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Ejemplos/Mascotas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Ejemplos/Mascotitas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Ejemplos/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Ejemplos/gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Ejemplos/perro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Infantil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/ListaMedidas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/ListaPacientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B_Supermercado/Productos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B_Supermercado/Productos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/B_Supermercado/principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/B_Supermercado/principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD5/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD5/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD6/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD6/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Medida.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Medida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD7/EvaluacionUD7/src/Regular.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD7/EvaluacionUD7/src/Regular.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +37,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Javiermachado98&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Javiermachado98/ProgramacionJava.git&quot;,
+    &quot;accountId&quot;: &quot;8431a058-47ed-49b6-b667-409cb2e11bb3&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -33,24 +57,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.principal.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/javie/IdeaProjects/ProgramacionJava/UD8/Mornite",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/alumno/ProgramacionJava/UD4/EjerciciosUD4/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.principal.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/javie/IdeaProjects/ProgramacionJava/UD4/EjerciciosUD4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/alumno/ProgramacionJava/UD4/EjerciciosUD4/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B_Supermercado.principal" />
@@ -74,8 +98,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -89,10 +113,23 @@
       <updated>1744199273742</updated>
       <workItem from="1744199274776" duration="249000" />
       <workItem from="1746004362729" duration="198000" />
+      <workItem from="1748798897599" duration="301000" />
+      <workItem from="1748813507798" duration="2003000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

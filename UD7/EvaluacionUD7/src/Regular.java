@@ -14,6 +14,7 @@ public class Regular {
         // f?          la letra 'f' opcional (0 o 1 vez)
         // $           fin de la cadena
         String patron = "^\\d{2}[A-Z]{5}f?$";
+        String patron2 = "AR\\d{9}[A-Z]";
 
         // Mientras no haya 5 aciertos, seguimos pidiendo palabras
         while (aciertos < 5) {
