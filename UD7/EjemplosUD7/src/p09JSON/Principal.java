@@ -40,7 +40,7 @@ public class Principal {
     public static void cargaInfo() {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            miLista = (ListaEmpleados) objectMapper.readValue(new File(FILE_PATH), ListaEmpleados.class);
+            miLista = objectMapper.readValue(new File(FILE_PATH), ListaEmpleados.class);
         } catch (IOException e) {
             e.printStackTrace();
         }

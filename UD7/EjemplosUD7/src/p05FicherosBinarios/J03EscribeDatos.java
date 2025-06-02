@@ -34,7 +34,7 @@ public class J03EscribeDatos {
 
         try {
             salida = new DataOutputStream(new BufferedOutputStream(
-                    new FileOutputStream("src" + File.separator + "files" + File.separator +  "salidaDatos.txt")));
+                    new FileOutputStream("src" + File.separator + "files" + File.separator +  "salidaDatoscsv.csv")));
 
             for (Persona p : a) {
                 salida.writeUTF(p.getNombre());
