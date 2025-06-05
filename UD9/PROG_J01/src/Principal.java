@@ -100,6 +100,8 @@ public class Principal {
     public static void ficheroCsv(){
 
         try (PrintWriter pw = new PrintWriter(new FileWriter("src/files/salidaFicheroBueno.csv"))) {
+            String encabezado = "idPlaca;Rango;Municipio";
+            pw.println(encabezado);
             for (Agente p : agents) {
                 pw.println(p.getIdPlaca() + ";" + p.getRango() + ";" + p.getMunicipio());
             }

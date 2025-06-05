@@ -16,7 +16,7 @@ public class Infraccion implements Serializable {
     @XmlElement(name = "idInfraccion")
     private int idInfraccion;                    // Identificativo único
     @XmlElement(name = "sancion")
-    private double sancion;                      // Importe de la multa
+    protected double sancion;                      // Importe de la multa
     @XmlElement(name = "gravedad")
     private TipoGravedadInfraccion gravedad;     // Gravedad de la infracción
     @XmlElement(name = "descripcion")

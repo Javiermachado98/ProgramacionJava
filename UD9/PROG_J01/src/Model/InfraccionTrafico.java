@@ -36,17 +36,17 @@ public class InfraccionTrafico extends Infraccion{
         }
     }
 
+    @Override
+    public double getSancion() {
+        if(infraccionPaga == true) {
+            return this.sancion/2;
+        }
+        else {
+            return super.getSancion();
+        }
+    }
 
 }
-
-// public Infraccion(int idInfraccion, double sancion, TipoGravedadInfraccion gravedad,
-// String descripcion, String dniInfractor) {
-//        this.idInfraccion = idInfraccion;
-//        this.sancion = sancion;
-//        this.gravedad = gravedad;
-//        this.descripcion = descripcion;
-//        this.dniInfractor = dniInfractor;
-//    }
 
 
 //•el número de puntos asignados a esa infracción, por ser de tráfico.
