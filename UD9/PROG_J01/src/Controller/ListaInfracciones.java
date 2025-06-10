@@ -19,13 +19,13 @@ import java.util.ArrayList;
 public class ListaInfracciones implements Serializable{
     @XmlElement(name = "infracciones")
 
-    private ArrayList<Infraccion> lista = new ArrayList<>();
+    private ArrayList<Infraccion> listaInfracciones = new ArrayList<>();
 
     /**
      * Constructor
      */
     public ListaInfracciones() {
-        lista = new ArrayList();
+        listaInfracciones = new ArrayList();
     }
 
     /**
@@ -33,8 +33,10 @@ public class ListaInfracciones implements Serializable{
      * @param e
      */
     public void anadirInfraccion(Infraccion e) {
-        lista.add(e);
+        listaInfracciones.add(e);
     }
+
+
 
 
     /**
@@ -42,11 +44,15 @@ public class ListaInfracciones implements Serializable{
      */
     public void mostrarInfracciones() {
         int contador = 1;
-        for (Infraccion e : lista) {
+        for (Infraccion e : listaInfracciones) {
             System.out.println(contador + " " + e);
             contador++;
         }
 
+    }
+
+    public ArrayList<Infraccion> getListaInfracciones() {
+        return listaInfracciones;
     }
 
     /**
@@ -54,7 +60,7 @@ public class ListaInfracciones implements Serializable{
      * @return
      */
     public int numeroInfracciones() {
-        return (lista.size());
+        return (listaInfracciones.size());
     }
 
     /**
@@ -63,7 +69,13 @@ public class ListaInfracciones implements Serializable{
      * @return
      */
     public Infraccion infraccionPosicionI(int i) {
-        return lista.get(i);
+        return listaInfracciones.get(i);
     }
 
+    @Override
+    public String toString() {
+        return "ListaInfracciones{" +
+                "listaInfracciones=" + listaInfracciones +
+                '}';
+    }
 }

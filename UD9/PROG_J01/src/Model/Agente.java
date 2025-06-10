@@ -38,6 +38,10 @@ public class Agente {
         this.municipio = municipio;
     }
 
+    public ListaInfracciones getInfraccionesEmitidas() {
+        return infraccionesEmitidas;
+    }
+
     /**
      * @return the idPlaca
      */
@@ -85,4 +89,13 @@ public class Agente {
     }
 
 
+    @Override
+    public String toString() {
+        return "Agente{" +
+                "idPlaca='" + idPlaca + '\'' +
+                ", rango=" + rango +
+                ", municipio='" + municipio + '\'' +
+                ", infraccionesEmitidas=" + infraccionesEmitidas +
+                '}';
+    }
 }

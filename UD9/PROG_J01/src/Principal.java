@@ -128,18 +128,25 @@ public class Principal {
             switch (opcion) {
 
                 case OPCION_MUESTRA_TODAS_MULTAS -> {
-                    miListaInfracciones.mostrarInfracciones();
+                    for (int i = 0; i < miListaAgentes.numeroAgentes();i++) {
+                        Agente nuevoAgente = miListaAgentes.agentePosicionI(i);
+                        System.out.println(nuevoAgente.getInfraccionesEmitidas());
+                    }
+
+                    miListaAgentes.mostrarAgentes();
 
                 }
                 case OPCION_MUESTRA_MULTAS_AGENTE -> {
                     System.out.println("Introduce el id de la placa del agente:");
-                    int idPlaca = sc.nextInt();
+                    String placa  = sc.next();
+                    miListaAgentes.mostrarInfraccionesAgente(placa);
 
 
                 }
                 case OPCION_MUESTRA_RECAUDACION_AGENTE -> {
                     System.out.println("Introduce el id de la placa del agente:");
-                    int idPlaca = sc.nextInt();
+                    String placa  = sc.next();
+                    miListaAgentes.recaudacionesAgente(placa);
 
                 }
                 case OPCION_MUESTRA_AGENTE_MAS_MULTAS -> {

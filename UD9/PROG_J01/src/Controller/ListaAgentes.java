@@ -1,6 +1,8 @@
 package Controller;
 
 import Model.Agente;
+import Model.Infraccion;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 
@@ -22,11 +24,16 @@ public class ListaAgentes implements Serializable {
         lista = new ArrayList();
     }
 
+    public ArrayList<Agente> getLista() {
+        return lista;
+    }
+
     /**
      * Añade el agente que se le pasa como parámetro a la lista
      *
      * @param e
      */
+
     public void anadirAgente(Agente e) {
         lista.add(e);
     }
@@ -42,6 +49,47 @@ public class ListaAgentes implements Serializable {
         }
 
     }
+
+    public void mostrarInfraccionesAgente(String placa){
+
+        Boolean agenteEncontrado = false;
+
+        for (Agente agente : lista) {
+            if ((agente.getIdPlaca().equals(placa))) {
+                agenteEncontrado = true;
+                System.out.println("El agente con placa: " + placa + " ha realizado estas infracciones: ");
+                System.out.println(agente.getInfraccionesEmitidas());
+
+            }
+        }
+
+        if (!agenteEncontrado) {
+            System.out.println("Esta placa no existe en nuestro sistema, revisala por favor");
+        }
+
+    }
+
+    public double recaudacionesAgente(String placa){
+
+        double recaudaciones = 0;
+        Boolean agenteEncontrado = false;
+
+        for (Agente agente : lista){
+            if (agente.getIdPlaca().equals(placa)){
+                for (Infraccion myinfraccion : agente.getInfraccionesEmitidas().getListaInfracciones()){
+                    recaudaciones = recaudaciones + myinfraccion.getSancion();
+                }
+                agenteEncontrado = true;
+            }
+        }
+        if (!agenteEncontrado) {
+            System.out.println("Esta placa no existe en nuestro sistema, revisala por favor");
+        }
+        System.out.println("La recaudacion del agente: " + placa + " es " + recaudaciones);
+
+        return recaudaciones;
+    }
+
 
     /**
      * Devuelve el número de agentes de la lista
@@ -62,4 +110,10 @@ public class ListaAgentes implements Serializable {
         return lista.get(i);
     }
 
+    @Override
+    public String toString() {
+        return "ListaAgentes{" +
+                "lista=" + lista +
+                '}';
+    }
 }

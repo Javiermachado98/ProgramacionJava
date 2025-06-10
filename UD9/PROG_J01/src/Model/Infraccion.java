@@ -4,7 +4,6 @@ import javax.xml.bind.annotation.*;
 import java.io.Serializable;
 
 /**
- *
  * @author admin
  */
 
@@ -24,10 +23,10 @@ public class Infraccion implements Serializable {
     @XmlAttribute(name = "idInfraccion", required = true)
     private String dniInfractor;                 // Dni del ciudadano multado
 
-    
+
     /**
-    * Constructor con parámetros
-    */  
+     * Constructor con parámetros
+     */
     public Infraccion(int idInfraccion, double sancion, TipoGravedadInfraccion gravedad, String descripcion, String dniInfractor) {
         this.idInfraccion = idInfraccion;
         this.sancion = sancion;
@@ -35,7 +34,8 @@ public class Infraccion implements Serializable {
         this.descripcion = descripcion;
         this.dniInfractor = dniInfractor;
     }
-    public Infraccion(){
+
+    public Infraccion() {
 
     }
 
@@ -113,8 +113,6 @@ public class Infraccion implements Serializable {
     public String toString() {
         return "Infraccion{" + "idInfraccion=" + idInfraccion + ", sancion=" + sancion + ", gravedad=" + gravedad + ", descripcion=" + descripcion + ", dniInfractor=" + dniInfractor + '}';
     }
-    
-    
-       
-    
+
+
 }
