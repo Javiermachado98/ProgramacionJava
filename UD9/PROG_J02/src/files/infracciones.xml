@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infracciones>
+    <Infraccion>
+        <idInfraccion>7</idInfraccion>
+        <sancion>50.0</sancion>
+        <gravedad>LEVE</gravedad>
+        <descripcion>Perro mingitando vía pública</descripcion>
+        <dniInfractor>73200100L</dniInfractor>
+    </Infraccion>
+    <Infraccion>
+        <idInfraccion>8</idInfraccion>
+        <sancion>100.0</sancion>
+        <gravedad>MEDIA</gravedad>
+        <descripcion>Desorden público</descripcion>
+        <dniInfractor>73200100L</dniInfractor>
+    </Infraccion>
+    <Infraccion>
+        <idInfraccion>15</idInfraccion>
+        <sancion>999.0</sancion>
+        <gravedad>MUY_GRAVE</gravedad>
+        <descripcion>Desacato autoridad</descripcion>
+        <dniInfractor>500000K</dniInfractor>
+    </Infraccion>
+    <Infraccion>
+        <idInfraccion>11</idInfraccion>
+        <sancion>300.0</sancion>
+        <gravedad>MUY_GRAVE</gravedad>
+        <descripcion>Exceso de velocidad</descripcion>
+        <dniInfractor>43000111J</dniInfractor>
+    </Infraccion>
+</infracciones>

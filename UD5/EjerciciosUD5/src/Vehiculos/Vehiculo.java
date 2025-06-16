@@ -100,7 +100,7 @@ public class Vehiculo {
 
     public void consumoKms(double kilometros){
         this.consumo = consumo / kilometros;
-        System.out.println("El consumo del carro fue: " + co);
+        System.out.println("El consumo del carro fue: ");
 
                 //40 km por galon
     }

@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5aad2ee1-3299-4763-9f79-b3f7c0a138b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Ejemplos/Mascotas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Ejemplos/Mascotitas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Ejemplos/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Ejemplos/gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Ejemplos/perro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Infantil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/ListaMedidas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/ListaPacientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Paciente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD5/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD5/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD6/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD6/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Medida.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo/src/Medida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UD7/EvaluacionUD7/src/Regular.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD7/EvaluacionUD7/src/Regular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/RefuerzoUD6/src/Carros/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/RefuerzoUD6/src/Carros/Velocidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/RefuerzoUD6/src/Mascotas/Mascota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../UD6/RefuerzoUD6/src/Mascotas/MascotaEspecial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo2/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD6/EvaluacionRefuerzo2/src/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD6/RefuerzoUD6/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD6/RefuerzoUD6/src/Principal1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UD9/PROG_J01/src/Model/InfraccionTrafico.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../UD9/PROG_J01/src/Model/InfraccionTrafico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,24 +50,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.principal.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/javie/IdeaProjects/ProgramacionJava/UD4/EjerciciosUD4&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/alumno/ProgramacionJava/UD4/EjerciciosUD4/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.principal.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/javie/IdeaProjects/ProgramacionJava/UD5/EvaluacionUD5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/alumno/ProgramacionJava/UD4/EjerciciosUD4/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="B_Supermercado.principal" />
@@ -115,6 +108,7 @@
       <workItem from="1746004362729" duration="198000" />
       <workItem from="1748798897599" duration="301000" />
       <workItem from="1748813507798" duration="2003000" />
+      <workItem from="1749053400572" duration="97000" />
     </task>
     <servers />
   </component>

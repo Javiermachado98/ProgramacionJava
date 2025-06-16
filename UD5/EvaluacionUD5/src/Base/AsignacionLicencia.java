@@ -24,7 +24,7 @@ public class AsignacionLicencia {
         this.licencia = licencia;
 
 
-        this.fechaAsignacion = LocalDate.parse(fechaAsignacion, formatter);;
+        this.fechaAsignacion = LocalDate.parse(fechaAsignacion, formatter);
         this.fechaExpiracion = LocalDate.parse(fechaExpiracion, formatter);
     }
 
